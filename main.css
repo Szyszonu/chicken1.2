@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Rajdhani&display=swap');
+
+
+body{
+    
+    background-image: url(used/opachicken.png);
+    background-color: rgb(155, 185, 190);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    /* opacity:0.2; */
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    font-size: larger;
+    padding: 30px;
+    
+}
+
+
+#navbar {
+    
+    color:brown;
+    background-color: dimgray;
+    justify-content: space-around;
+    font-size: 40px;
+    padding: 20px;
+    border: black 15px double;
+    display:flex;
+    opacity: 0.8;
+}
+
+
+.header1 {
+    display: flex;
+    /* background-color: brown; */
+    color:rgb(4, 4, 75);
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    /* background-color: blueviolet; */
+    
+}
+
+.quoteheader {
+    width: 40%;
+    font-weight: bolder;
+}
+
+.main1 {
+    display:flex;
+    contain: content;
+    column-gap: 40px;
+}
+
+.main2 {
+    display:flex;
+    contain: content;
+    column-gap: 40px;
+}
+.aboutme {
+    display:flex;
+    /* background-color: rgb(144, 190, 190); */
+    box-sizing: 100px;
+    column-gap: 40px;
+}
+
+.portrait {
+    display: flex;
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.portrait2 {
+    display: flex;
+    object-fit:contain;
+    border-radius: 10px;
+}
+
+.portrait3 {
+    display: flex;
+    object-fit:contain;
+    size: 160%;
+    border-radius: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: 20%;
+    width: 30%;
+
+    }
+
+.round {
+    display: flex;
+    }
+.about {
+    display:flex;
+    border: black 5px groove;
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: center;
+}
+
+.naked {
+    display: flex;
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.recipes1 {
+    display:flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+}
+
+.head3 {
+    display:flex;
+    justify-content: center;
+}
+
+.page2con {
+
+    max-width: 99%;
+    columns: 3;
+    column-gap: 2.5%;
+}
+
+.page2con2 {
+
+    max-width: 99%;
+    columns: 3;
+    column-gap: 2.5%;
+}
+
+.recipes2 {
+    display:flex;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.separator {
+    column-span: all;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
